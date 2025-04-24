@@ -1017,6 +1017,14 @@ input {
         margin: 0 25px 0 25px;
     }
 }
+@media screen and (max-width: 980px) {
+    .miss-text-title {
+        padding-left: 20px;
+      }
+      .miss__content-img{
+        padding-right: 20px;
+      } 
+}
 @media screen and (max-width: 950px) {
     .weoffer__content-blocks {
         display: flex;
@@ -1076,7 +1084,18 @@ input {
       #scrollDownBtn {
         display: inline-block;
       }
+      .miss-text-title{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+      }
+      .miss-text-title {
+        padding-left: 20px;
+      }
 }
+
 @media screen and (max-width: 900px) {
     .header__title {
         font-size: 1.8rem;
@@ -1191,7 +1210,7 @@ input {
         flex-direction: column;
     }
         .miss__content-img {
-            position: relative;
+            display: none;
         }
         .miss__content-text {
         display: block;
@@ -1302,4 +1321,18 @@ input {
     .footer__content-right > h3 {
         text-align: center;
     }
+    .miss-text-title {
+        flex-direction: column;
+      }
+      .miss-text-title > span {
+        display: flex;
+        text-align: justify;
+      }
+      .serv__title > h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
 }
+
